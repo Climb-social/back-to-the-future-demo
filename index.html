@@ -5,11 +5,70 @@
     <title>#BackToTheFuture Demo – Climb.social</title>
 
     <style>
+        body {
+            background: url('img/bg.png') no-repeat 50% 50%;
+            background-size: cover;
+            color: white;
+            font-family: "orbitron", sans-serif;
+        }
 
+        .logo {
+            position: absolute;
+            top: 50px;
+            left: 50px;
+        }
+
+        h1 {
+            margin-left: 340px;
+            margin-top: 73px;
+            margin-right: 200px;
+        }
+
+        .climb-slideshow__panel {
+            background-color: transparent !important;
+            padding: 40px !important;
+        }
+
+        a {
+            text-decoration: none;
+            color: #F34710;
+        }
+
+        .climb__tile {
+            background-color: transparent !important;
+        }
+
+        .climb-slideshow__slide--has-no-image .climb-slideshow__panel {
+            box-shadow: none !important;
+        }
+
+        .climb__tile__content {
+            background-color: transparent !important;
+        }
+
+        .climb-slideshow {
+            width: auto !important;
+        }
+
+        .climb__author img {
+            display: none;
+        }
     </style>
+
+    <script src="https://use.typekit.net/nti6bnm.js"></script>
+    <script>try {
+        Typekit.load({async: true});
+    } catch (e) {
+    }</script>
 
 </head>
 <body>
+
+<img class="logo"
+     src="img/logo.png"
+     alt="Back To the future logo"/>
+
+<h1>Celebrating #BackToTheFuture Day by bringing all the content from all over the world together. In one place.</h1>
 
 <div class="climb-slideshow" data-collection-id="5627883345284ec7e0328949" data-delay="5"></div>
 <div class="climb-wall" data-collection-id="5627883345284ec7e0328949" data-limit="6"></div>
